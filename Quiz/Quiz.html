@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+ <html>
+<head>
+<title> Jordelles Quiz </title>
+<link href= "QuizStyle.css" rel="Stylesheet">
+<script src= "Main.Js"></script>
+ 
+</head>
+<body>
+    <h1> Welcome to a life changing quiz </h1>
+
+<form id = "quiz" name = "quiz">
+  <P>How many spice options are there at nandoes ?</P>
+  <input id = "textbox" type = "text" name = "Question1">
+
+  <P>How much of the ocean have we discovered aproximately ?</P>
+  <input type ="radio" name ="Question2" value = " 20%" >
+  <label for ="20%">20%</label><br>
+  <input type ="radio" name ="Question2" value = " 15%" >
+  <label for ="15%">15%</label><br>
+  <input type ="radio"  name ="Question2" value = " 5%" >
+  <label for ="5%">5%</label>
+
+  <P>What is the hottest continent on Earth?</P>
+  <input type = "radio" name = "Question3" value = " Africa" >
+  <label for ="Africa">Africa</label><br>
+  <input type = "radio" name = "Question3" value = " North America" >
+  <label for ="North America">North America</label><br>
+  <input type = "radio" name = "Question3" value = " South America" >
+  <label for ="South America">South America</label><br>
+
+
+
+  <P>Which nuts are used in marzipan? </P>
+  <input id = "textbox" type = "text" name = "Question4">
+
+  <P>Which singer was known amongst other things as 'The King of Pop'?</P>
+  <input id = "textbox" type = "text" name = "Question5">
+  
+
+  <p>What is the most popular tech companies ranked by brand value as of 2020</p>
+  <input type = "radio" name = "Question6" value = "Google" >
+    <label for ="Google">Google</label><br>
+    <input type = "radio" name = "Question6" value = "Microsoft" >
+    <label for ="Microsoft">Microsoft</label><br>
+    <input type = "radio" name = "Question6" value = "Apple" >
+    <label for ="Apple">Apple</label><br>
+
+    <P>What is the name for japnese comic books ?</P>
+    <input type = "radio" name = "Question7" value = " Manhwa" >
+    <label for ="Manhwa">Manhwa</label><br>
+    <input type = "radio" name = "Question7" value = " Manga" >
+    <label for ="Manga">Manga</label><br>
+    <input type = "radio" name = "Question7" value = " Manhua " >
+    <label for ="Manhua">Manhua</label><br>
+
+<p>Which of these means a speech in a play where a charachter talks to themselves 
+    rather than to other charcaters </p>
+    <select name="Question8" >
+      <option value="Pick From Bellow">Pick From Bellow</option>
+      <option value="Ad Lib">Ad Lib</option>
+      <option value="Interlude">Interlude</option>
+      <option value="Revue">Revue</option>
+      <option value="Soliloquy">Soliloquy</option>
+      <option value="Monolouge">Monolouge</option>
+      <option value="Cabotinage">Cabotinage</option>
+    </select>
+    <br><br>
+  
+    <p>What is the capital of switzerland</p>
+    <input type = "radio" name = "Question9" value = "Bern" >
+    <label for ="Bern">Bern</label><br>
+    <input type = "radio" name = "Question9" value = "Geneva" >
+    <label for ="Geneva">Geneva</label><br>
+    <input type = "radio" name = "Question9" value = "Zurich" >
+    <label for ="Zurich">Zurich</label><br>
+
+    <p> What is an axolotl ? </p>
+    <select name ="Question 10" >
+         <option value= "Pick from the options bellow"> Pick from the options bellow </option>
+          <option value="A nerve in the brain "> A nerve in the brain </option>
+          <option value="A multi axled vehicle"> A multi axled vehicle </option>
+          <option value="A type of mortice lock">A type of mortice lock</option>
+          <option value="A sepcies of plant">A species of plant </option>
+          <option value=" A species of salamander">A species of salamander </option>
+          <option value=" A species of lizard">A species of lizard </option>
+          <option value=" A seasonal abnormality"> A seasonal abnormality </option>
+          <option calie="A rare skin condition ">A rare skin conditon </option>       
+</select>
+<br><br>
+
+<input id = "button" type = "button" value = "Check (I'm finished)" onclick = "check();">
+
+
+
+</script>  
+</form>
+ 
+<p id = "message"></p>
+<div id = "after_submit">
+<p id = "number_correct"></p>
+
+</div>
+</body>
+</html>
